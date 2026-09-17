@@ -6,7 +6,7 @@
 
 ## Core Operational Modules
 
-* **Academic Architecture:** Multi-session support, flexible terms, classes/grades, sections/homerooms, and subject allocation with ready-to-use board presets (CBSE, ICSE, State Boards, US K-12, UK National Curriculum).
+* **Academic Architecture:** Multi-session support, flexible terms, classes/grades, sections/homerooms, and subject allocation with ready-to-use country presets for India, the US, and the UK.
 * **Admissions & Applicant Tracking:** Public-facing admission and inquiry shortcode forms, document verification pipelines, and single-click applicant-to-student conversion.
 * **Student Information System (SIS):** Centralized student directories, multi-guardian relationship tracking, printable student ID cards, bulk CSV import, and end-of-year class promotion workflows.
 * **Staff & HR Directory:** Faculty records, staff application forms, printable employee ID cards, and customizable Role-Based Access Control (RBAC).
@@ -24,8 +24,8 @@ Nexora runs on standard WordPress-compatible PHP hosting environments.
 
 | Requirement | Minimum | Recommended |
 |---|---|---|
-| **WordPress** | 6.2 or higher | Latest stable release (6.7+) |
-| **PHP Version** | 8.0 or higher | PHP 8.2 or 8.3 |
+| **WordPress** | 6.5 or higher | Latest stable release (6.7+) |
+| **PHP Version** | 8.1 or higher | PHP 8.2 or 8.3 |
 | **MySQL / MariaDB** | MySQL 5.7+ / MariaDB 10.3+ | MySQL 8.0+ / MariaDB 10.6+ |
 | **PHP Memory Limit** | 128 MB | 256 MB or higher |
 | **Required PHP Extensions** | `curl`, `json`, `mbstring`, `zip` | Standard WordPress extensions |

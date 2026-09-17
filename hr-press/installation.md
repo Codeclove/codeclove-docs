@@ -5,7 +5,7 @@ Install HR Press Pro, activate your license, and enable automatic dashboard upda
 ---
 
 ::: tip Prerequisites
-Ensure your server meets the minimum requirements: **PHP 8.0+**, **WordPress 6.2+**, and **MySQL 5.7+ / MariaDB 10.3+**.
+Ensure your server meets the minimum requirements: **PHP 7.0+**, **WordPress 5.5+**, and **MySQL 5.6+ / MariaDB 10.1+**.
 :::
 
 <div class="step-list">

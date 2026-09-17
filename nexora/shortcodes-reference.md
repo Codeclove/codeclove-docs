@@ -1,6 +1,6 @@
 # Shortcode Reference
 
-Nexora provides frontend shortcodes to embed public admissions forms, applicant tracking widgets, and staff onboarding portals onto any WordPress page, post, or block layout.
+Nexora provides frontend shortcodes to embed public admissions forms, applicant tracking widgets, staff onboarding portals, and the student/guardian self-service portal onto any WordPress page, post, or block layout.
 
 ---
 
@@ -13,6 +13,7 @@ Nexora provides frontend shortcodes to embed public admissions forms, applicant 
 | `[nexora_application_status]` | Embeds a reference tracking lookup tool for applicants to check their admission progress. | Prospective Applicants |
 | `[nexora_staff_application_form]` | Embeds a public employment application form with resume/CV upload. | Job Candidates / Faculty Applicants |
 | `[nexora_staff_application_status]` | Embeds a status lookup widget for staff candidates to check hiring pipeline status. | Job Candidates |
+| `[nexora_portal]` | Mounts the student and guardian self-service portal. Shows a login form to guests and the full portal SPA to authenticated users. | Students / Guardians |
 
 ---
 
@@ -88,6 +89,22 @@ Enables job applicants to track their hiring progress:
 ```
 
 ---
+### `[nexora_portal]`
+
+Mounts the Nexora student and guardian self-service portal on any page.
+
+```text
+[nexora_portal]
+```
+
+**Guest behavior:** Renders a branded login card. Failed login attempts redirect back to the same page with an error notice.
+
+**Authenticated behavior:** Loads the full React portal application (served from the compiled production build). The admin bar is automatically hidden for users with the `nexora_guardian` or `nexora_student` role.
+
+The portal page URL should be set under **Nexora > Settings** so that login redirects resolve correctly.
+
+---
+
 
 ## 3. Embedding Shortcodes in WordPress
 

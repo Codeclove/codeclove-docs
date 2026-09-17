@@ -5,7 +5,7 @@ Install Nexora, activate your license key, and get automatic dashboard updates.
 ---
 
 ::: tip Prerequisites
-Ensure your server meets the minimum requirements before installation: **PHP 8.0 or higher**, **WordPress 6.2+**, and **MySQL 5.7+ / MariaDB 10.3+**. Nexora uses standard WordPress REST API endpoints.
+Ensure your server meets the minimum requirements before installation: **PHP 8.1 or higher**, **WordPress 6.5+**, and **MySQL 5.7+ / MariaDB 10.3+**. Nexora uses standard WordPress REST API endpoints.
 :::
 
 <div class="step-list">
