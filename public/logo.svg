@@ -1,12 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="cloveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3b82f6" />
-      <stop offset="100%" stop-color="#1d4ed8" />
+    <!-- Radiant Multi-Dimensional Gradients matching chosen mark -->
+    <linearGradient id="petal-tl-cyan" x1="16" y1="6" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="petal-tr-blue" x1="48" y1="6" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="petal-rt-sky" x1="58" y1="18" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00b4d8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="petal-rb-navy" x1="58" y1="46" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="petal-br-navy" x1="46" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="petal-bl-blue" x1="18" y1="58" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="petal-lb-blue" x1="6" y1="46" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00b4d8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="petal-lt-cyan" x1="6" y1="18" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
     </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="8" fill="url(#cloveGrad)" />
-  <path d="M10 12L6 16L10 20" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-  <path d="M22 12L26 16L22 20" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
-  <path d="M18 10L14 22" stroke="#93c5fd" stroke-width="2.2" stroke-linecap="round" fill="none" />
+
+  <!-- 1. Top Petal -->
+  <path d="M32 5 C21 5 17 12 17 21 C17 27 21 31 31.5 31.5 L32 5 Z" fill="url(#petal-tl-cyan)"/>
+  <path d="M32 5 C43 5 47 12 47 21 C47 27 43 31 32.5 31.5 L32 5 Z" fill="url(#petal-tr-blue)"/>
+
+  <!-- 2. Right Petal -->
+  <path d="M59 32 C59 21 52 17 43 17 C37 17 33 21 32.5 31.5 L59 32 Z" fill="url(#petal-rt-sky)"/>
+  <path d="M59 32 C59 43 52 47 43 47 C37 47 33 43 32.5 32.5 L59 32 Z" fill="url(#petal-rb-navy)"/>
+
+  <!-- 3. Bottom Petal -->
+  <path d="M32 59 C43 59 47 52 47 43 C47 37 43 33 32.5 32.5 L32 59 Z" fill="url(#petal-br-navy)"/>
+  <path d="M32 59 C21 59 17 52 17 43 C17 37 21 33 31.5 32.5 L32 59 Z" fill="url(#petal-bl-blue)"/>
+
+  <!-- 4. Left Petal -->
+  <path d="M5 32 C5 43 12 47 21 47 C27 47 31 43 31.5 32.5 L5 32 Z" fill="url(#petal-lb-blue)"/>
+  <path d="M5 32 C5 21 12 17 21 17 C27 17 31 21 31.5 31.5 L5 32 Z" fill="url(#petal-lt-cyan)"/>
+
+  <!-- 5. Central 4-Point White Light Spark & Tapering Seam Rays -->
+  <path d="M32 5 L32.6 32 L32 59 L31.4 32 Z" fill="#ffffff"/>
+  <path d="M5 32 L32 32.6 L59 32 L32 31.4 Z" fill="#ffffff"/>
+  <path d="M32 28 L34.5 32 L32 36 L29.5 32 Z" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="1.2" fill="#ffffff"/>
 </svg>
