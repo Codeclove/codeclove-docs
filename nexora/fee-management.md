@@ -1,59 +1,122 @@
-# Fee Management
+# Fee Management & Invoicing
 
-Nexora allows institutions to define itemized fee heads, create class-wise fee structures, generate invoices, and track payments.
-
----
-
-## 1. Defining Fee Heads
-
-Fee heads represent the specific categories of charges in your fee structure.
-
-1. Go to **Nexora > Fees > Fee Heads**.
-2. Click **Add Fee Head**.
-3. Examples of standard fee heads:
-   * `Tuition Fee` (Recurring - Monthly / Quarterly)
-   * `Admission Fee` (One-time on enrollment)
-   * `Laboratory & Computer Fee` (Annual)
-   * `Library Fee` (Annual)
-   * `Transportation Fee` (Monthly / Route-based)
-4. Click **Save Fee Head**.
+Nexora provides complete school fee billing: create customizable fee types, assign recurring or one-time fee structures to classes, generate batch invoices, record multi-channel payments, and track overdue defaulters.
 
 ---
 
-## 2. Building Fee Structures
+## 1. Finance Overview Dashboard
 
-Group fee heads together and assign them to specific classes:
+The Finance Dashboard provides immediate visibility into your institution's financial health:
 
-1. Navigate to **Nexora > Fees > Fee Structures**.
-2. Click **Create Fee Structure** (e.g., `Class 9 Fee Structure - 2026`).
-3. Select the target class(es).
-4. Add the appropriate fee heads and specify the exact amounts.
-5. Set the payment frequency (Annual, Term 1 / 2 / 3, or Monthly).
-6. Set the payment due dates and optional late fee penalties.
-7. Click **Save & Assign**.
+1. Navigate to **Nexora > Finance > Dashboard**.
+2. Real-time metric cards display:
+   * **Total Invoiced:** Cumulative value of all bills issued in the current academic session.
+   * **Total Collected:** Total revenue received and reconciled.
+   * **Outstanding Dues:** Pending balances awaiting payment.
+   * **Overdue Defaulters:** Number of students with past-due unpaid balances.
+3. Recent transactions table and class-wise collection breakdowns highlight collection performance.
 
 ---
 
-## 3. Generating Invoices
+## 2. Defining Fee Types (Fee Heads)
 
-Once a fee structure is assigned to a class:
+Fee types represent individual categories of charges:
 
-1. Navigate to **Nexora > Fees > Invoices**.
+1. Navigate to **Nexora > Finance > Fee Types**.
+2. Click **Add Fee Type**.
+3. Configure fee head parameters:
+   * **Fee Type Name:** e.g., `Tuition Fee`, `Admission Fee`, `Laboratory & Computer Fee`, `Library Fee`, `Transportation Fee`, `Examination Fee`.
+   * **Fee Code:** Short code (e.g., `TUIT-01`, `LAB-01`).
+   * **Description:** Optional details describing the charge.
+4. Click **Save Fee Type**.
+
+---
+
+## 3. Creating Fee Structures
+
+Group multiple fee types together and assign them to specific classes with scheduled payment dates:
+
+1. Navigate to **Nexora > Finance > Fee Structures** (or **Fee Plans**).
+2. Click **Create Fee Structure** (e.g., `Class 9 Annual Fee Structure 2026-2027`).
+3. Select the target **Class(es)** this fee structure applies to.
+4. Add line-item fee types and enter the exact amount for each:
+   * `Tuition Fee`: $500.00
+   * `Computer Lab Fee`: $75.00
+   * `Library Fee`: $25.00
+5. Configure payment schedule:
+   * **Payment Frequency:** `One-time (Annual)`, `Term-wise (Term 1 / Term 2)`, `Quarterly`, or `Monthly`.
+   * **Due Date:** Specify the deadline date for each installment.
+   * **Late Fee Penalty (Optional):** Define flat late fees or daily overdue fines applied after the due date.
+6. Click **Save Fee Structure**.
+
+---
+
+## 4. Generating Invoices
+
+Invoices can be generated in bulk for entire classes or created individually for specific students.
+
+### Generating Batch Invoices (Class-wide)
+1. Navigate to **Nexora > Finance > Invoices**.
 2. Click **Generate Batch Invoices**.
-3. Select the Academic Session and Class.
-4. Click **Generate**.
+3. Select the **Academic Session**, **Class**, and the assigned **Fee Structure / Term**.
+4. Review the student preview list.
+5. Click **Generate Invoices**. Nexora creates individualized invoices with unique invoice numbers (e.g., `NX-INV-2026-0412`) for all active students in that class.
 
-Invoices are instantly created for all enrolled students in the class. Parents can view and download invoices from the parent portal, or administrators can print official PDF receipts.
+### Creating a Single Invoice
+1. In **Nexora > Finance > Invoices**, click **Create Single Invoice**.
+2. Select the **Student** (search by name or admission number).
+3. Add customized fee line items or select a pre-defined fee structure.
+4. Set the **Due Date** and click **Create Invoice**.
 
 ---
 
-## 4. Recording Fee Payments
+## 5. Recording Fee Payments
 
-Administrators can record payments received via cash, cheque, bank transfer, or online gateways:
+When a parent or student pays fees, record the transaction in the system:
 
-1. Open **Nexora > Fees > Invoices**.
-2. Search for the student by name or admission number.
+1. Navigate to **Nexora > Finance > Invoices** (or **Payments > Record Payment**).
+2. Locate the invoice by searching student name, admission number, or invoice number.
 3. Click **Record Payment**.
-4. Enter the amount paid, payment method, transaction/cheque reference, and payment date.
+4. Fill in transaction details:
+   * **Amount Paid:** Enter full payment or partial payment amount.
+   * **Payment Method:** `Cash`, `Cheque / Check`, `Bank Transfer / NEFT`, `UPI`, `Credit / Debit Card`, or `Online Gateway`.
+   * **Transaction / Reference Number:** e.g., Cheque number or bank reference code.
+   * **Payment Date:** Defaults to today.
+   * **Notes / Remarks:** Optional cashier notes.
 5. Click **Submit Payment**.
-6. A printable receipt is generated automatically.
+
+---
+
+## 6. Official Printable Receipts & Letterheads
+
+Upon recording a payment, Nexora generates an official payment receipt:
+
+1. On the payment confirmation screen (or from **Nexora > Finance > Payments**), click **Print Receipt**.
+2. The receipt includes:
+   * Official school letterhead and logo from **Settings**.
+   * Receipt number and invoice reference.
+   * Student name, admission number, class, and section.
+   * Itemized fee breakdown and paid amount.
+   * Outstanding balance remaining (for partial payments).
+   * Cashier signature line and date stamp.
+3. Click **Print** or **Save as PDF** to hand over to parents or email automatically.
+
+---
+
+## 7. Defaulters & Arrears Reporting
+
+Track unpaid student accounts and follow up on pending dues:
+
+1. Navigate to **Nexora > Finance > Defaulters** (or **Defaulters Report**).
+2. Filter the report by:
+   * **Class & Section**
+   * **Minimum Overdue Days** (e.g., overdue by 15+ days, 30+ days)
+   * **Minimum Balance Amount**
+3. The report displays student names, primary guardian phone numbers, total invoice amount, amount paid, and net balance due.
+4. Click **Export Defaulters (CSV/PDF)** or click **Send SMS Reminder** to dispatch bulk due-payment alerts to all selected guardians.
+
+---
+
+## Next Steps
+
+Configure automated SMS reminders and gateway integrations in [SMS & Automated Notifications](/nexora/notifications-sms).
