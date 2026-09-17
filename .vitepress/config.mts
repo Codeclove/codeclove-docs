@@ -17,7 +17,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'CodeClove Docs' }],
     ['meta', { property: 'og:title', content: 'CodeClove Docs: Plugin Documentation & Setup Guides' }],
-    ['meta', { property: 'og:description', content: 'Official setup guides, architecture, and references for CodeClove WordPress plugins including Nexora School ERP and HR Press Pro.' }],
+    ['meta', { property: 'og:description', content: 'Official setup guides, architecture, and references for CodeClove WordPress plugins including Nexora and HR Press Pro.' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'CodeClove Docs: Plugin Documentation & Setup Guides' }],
     ['meta', { name: 'twitter:description', content: 'Official setup guides, architecture, and references for CodeClove WordPress plugins.' }],
@@ -35,7 +35,7 @@ export default defineConfig({
       },
     },
     nav: [
-      { text: 'Nexora ERP', link: '/nexora/' },
+      { text: 'Nexora', link: '/nexora/' },
       { text: 'HR Press', link: '/hr-press/' },
       { text: 'Live Demo', link: 'https://demo.codeclove.com', target: '_blank' },
       { text: 'CodeClove.com', link: 'https://codeclove.com', target: '_blank' },

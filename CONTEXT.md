@@ -15,7 +15,7 @@ This document defines the canonical domain model, vocabulary, and entity relatio
 
 ---
 
-## 2. Nexora School ERP
+## 2. Nexora
 
 ### 2.1 Academic Hierarchy
 * **Academic Session (`academic_session`):** A discrete operational school year (e.g., `2026-2027`) binding all classes, student enrollments, attendance logs, and fee ledgers.

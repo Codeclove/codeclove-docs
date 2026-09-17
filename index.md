@@ -3,19 +3,19 @@ layout: home
 
 hero:
   name: "CodeClove Documentation"
-  tagline: Installation, configuration, and troubleshooting guides for Nexora School ERP and HR Press Pro.
+  tagline: Installation, configuration, and troubleshooting guides for Nexora and HR Press Pro.
   actions:
     - theme: brand
-      text: Nexora School ERP
+      text: Nexora
       link: /nexora/
     - theme: alt
-      text: HR Press Pro
+      text: HR Press
       link: /hr-press/
 
 features:
   - icon:
       src: /icons/nexora.svg
-    title: Nexora School ERP
+    title: Nexora
     details: Complete school management on WordPress. Admissions, fee structures, academic terms, and Indian board presets.
     link: /nexora/
     linkText: Explore Nexora Docs

@@ -1,4 +1,4 @@
-# Nexora School ERP
+# Nexora
 
 **Nexora** is a self-hosted school management and ERP plugin for WordPress. It handles the administrative and academic operations of schools, colleges, and educational academies directly from the WordPress dashboard without recurring per-student SaaS fees.
 
