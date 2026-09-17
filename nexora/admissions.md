@@ -1,12 +1,12 @@
 # Student Admissions
 
-Nexora provides an end-to-end admissions system: from public application forms and document uploads to multi-stage application review and single-click student conversion.
+Nexora handles the full admissions cycle: public application forms, document uploads, staged review, and conversion to a student record.
 
 ---
 
 ## 1. Publishing Public Admissions Forms
 
-Nexora provides shortcodes to embed responsive application and tracking forms on any WordPress page or post.
+Use these shortcodes to embed application and tracking forms on any page or post.
 
 ### Admission Form Shortcode
 Embed the full student registration form for active admission cycles:
@@ -59,10 +59,10 @@ When an applicant submits a form, an **Application Reference** (e.g., `NX-APP-20
    * **Accepted:** Applicant has passed screening and is approved for enrollment.
    * **Waitlisted:** Application approved but held pending section vacancy.
    * **Rejected:** Application declined with optional rejection reason note.
-3. Click on any applicant to view their full submission:
-   * View student biodata, parent contact details, and uploaded documents.
+3. Click on any applicant to open their full submission:
+   * Review student biodata, parent contact details, and uploaded documents.
    * Add internal staff review notes.
-   * Update status directly from the review card.
+   * Update the application status directly from the review card.
 
 ---
 

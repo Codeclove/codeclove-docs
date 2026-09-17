@@ -7,7 +7,6 @@
     </div>
 
     <div class="portal-grid">
-      <!-- Nexora Product Card -->
       <div class="portal-card">
         <div class="card-header-row">
           <div class="card-icon-box">
@@ -17,7 +16,7 @@
         </div>
         
         <h2 class="card-product-title">Nexora</h2>
-        <p class="card-product-desc">Self-hosted school information system. Manage academic sessions, timetable scheduling, admissions, attendance, and fee invoicing.</p>
+        <p class="card-product-desc">Self-hosted school information system. Manage academic sessions, timetables, admissions, attendance, and fee invoicing.</p>
 
         <div class="card-links-list">
           <div class="card-links-heading">Popular Guides</div>
@@ -44,17 +43,16 @@
         </div>
       </div>
 
-      <!-- HR Press Product Card -->
       <div class="portal-card">
         <div class="card-header-row">
           <div class="card-icon-box">
             <img src="/icons/hr-press.svg" alt="HR Press" width="24" height="24" />
           </div>
-          <span class="card-category-badge" style="color:#a855f7; background:rgba(168,85,247,0.1); border-color:rgba(168,85,247,0.2);">HR Management</span>
+          <span class="card-category-badge card-category-badge--hr">HR Management</span>
         </div>
         
         <h2 class="card-product-title">HR Press Pro</h2>
-        <p class="card-product-desc">Self-hosted human resource management. Manage employee directories, departments, work shifts, leave policies, attendance tracking, and payroll.</p>
+        <p class="card-product-desc">Self-hosted HR management. Employee directories, departments, shifts, leave, attendance, and payroll.</p>
 
         <div class="card-links-list">
           <div class="card-links-heading">Popular Guides</div>

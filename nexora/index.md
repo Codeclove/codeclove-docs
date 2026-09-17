@@ -1,6 +1,6 @@
 # Nexora
 
-**Nexora** is a self-hosted school management and ERP plugin for WordPress. It handles the administrative and academic operations of schools, colleges, and educational academies directly from the WordPress dashboard without recurring per-student SaaS fees.
+**Nexora** is a self-hosted school management and ERP plugin for WordPress. It runs entirely in WordPress, with no external service dependency, and handles academic and administrative operations directly from the dashboard.
 
 ---
 
@@ -11,7 +11,7 @@
 * **Student Information System (SIS):** Centralized student directories, multi-guardian relationship tracking, printable student ID cards, bulk CSV import, and end-of-year class promotion workflows.
 * **Staff & HR Directory:** Faculty records, staff application forms, printable employee ID cards, and customizable Role-Based Access Control (RBAC).
 * **Timetable & Scheduling:** Period configuration, interactive master weekly timetable grid, conflict prevention, and teacher leave substitution.
-* **Daily & Monthly Attendance:** Fast roll-call attendance marking for students and staff with monthly timesheet summaries and SMS absence alerts.
+* **Daily & Monthly Attendance:** Roll-call attendance marking for students and staff with monthly timesheet summaries and SMS absence alerts.
 * **Finance & Fee Management:** Customizable fee types, term-wise and monthly fee structures, batch invoice generation, multi-mode payment recording, arrears/defaulters reporting, and printable letterhead receipts.
 * **SMS & Automated Notifications:** Multi-gateway SMS integration (Twilio, Msg91, Fast2SMS, Vonage) for parent alerts on admissions, attendance, and fee dues.
 * **Custom Numbering & Localization:** Configurable identifier sequences (Admission Numbers, Student IDs, Employee IDs, Invoices), multi-currency support, and localized date/time formats.
@@ -33,19 +33,3 @@ Nexora runs on standard WordPress-compatible PHP hosting environments.
 
 ---
 
-## Documentation Navigation
-
-| Topic | Description |
-|---|---|
-| [Installation & License Activation](/nexora/installation) | Plugin installation, activating license key, updates, and renewal |
-| [Academic Setup & Board Presets](/nexora/academic-setup) | Sessions, classes, sections, subjects, and curriculum presets |
-| [Timetable & Substitution](/nexora/timetable) | Period slots, weekly timetable matrix, and substitute teacher assignment |
-| [Student Admissions](/nexora/admissions) | Online forms, review pipeline, and applicant-to-student conversion |
-| [Student Directory & SIS](/nexora/student-directory) | Student profiles, ID card printing, CSV import, and promotion |
-| [Staff Management](/nexora/staff-management) | Staff directory, onboarding forms, and employee ID generation |
-| [Roles & Permissions](/nexora/roles-permissions) | Role matrix (Principal, Teacher, Accountant, Front Desk) |
-| [Attendance Tracking](/nexora/attendance) | Daily roll-call and monthly attendance for students and staff |
-| [Fee Management & Invoicing](/nexora/fee-management) | Fee types, batch invoicing, payment logs, and receipt printing |
-| [SMS & Notifications](/nexora/notifications-sms) | Twilio, Msg91, Fast2SMS, Vonage setup and alert triggers |
-| [Settings & Identifiers](/nexora/settings-identifiers) | School profile, custom numbering sequences, and localization |
-| [Shortcode Reference](/nexora/shortcodes-reference) | Master reference for public forms and lookup widgets |

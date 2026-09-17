@@ -1,12 +1,12 @@
 # Fee Management & Invoicing
 
-Nexora provides complete school fee billing: create customizable fee types, assign recurring or one-time fee structures to classes, generate batch invoices, record multi-channel payments, and track overdue defaulters.
+Create fee types, assign fee structures to classes, generate batch invoices, record payments, and track overdue balances.
 
 ---
 
 ## 1. Finance Overview Dashboard
 
-The Finance Dashboard provides immediate visibility into your institution's financial health:
+The Finance Dashboard shows real-time billing totals for the current academic session:
 
 1. Navigate to **Nexora > Finance > Dashboard**.
 2. Real-time metric cards display:

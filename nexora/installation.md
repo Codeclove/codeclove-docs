@@ -1,6 +1,6 @@
 # Installation & License Activation
 
-This guide walks you through installing Nexora on your WordPress website, activating your license key for automatic dashboard updates, and managing renewals.
+Install Nexora, activate your license key, and get automatic dashboard updates.
 
 ---
 
@@ -30,7 +30,7 @@ Ensure your server meets the minimum requirements before installation: **PHP 8.0
   <div class="step-item" id="step-3-activate-your-license-key">
     <div class="step-number">3</div>
     <div class="step-title">Activate Your License Key</div>
-    <p>Activating your license key enables one-click automatic updates from your WordPress dashboard and unlocks priority support access.</p>
+    <p>An active license key enables automatic updates in your WordPress dashboard.</p>
     <ol>
       <li>Go to <strong>Nexora &gt; Settings &gt; System</strong> (or <strong>License</strong> tab).</li>
       <li>Paste your license key into the <strong>License Key</strong> input field.</li>
@@ -65,7 +65,7 @@ Once your license key is active, plugin updates appear automatically in your Wor
 
 ## License Renewal
 
-Licenses are billed on an annual cycle to maintain access to official updates, compatibility patches with major WordPress releases, and priority support.
+Licenses renew annually. Renewal covers updates, WordPress compatibility patches, and priority support.
 
 1. Log in to your [CodeClove Account](https://codeclove.com/account/).
 2. Navigate to the **Licenses** tab.
@@ -74,7 +74,3 @@ Licenses are billed on an annual cycle to maintain access to official updates, c
 5. Your active license key will instantly extend without requiring re-entry in your WordPress dashboard.
 
 ---
-
-## Next Steps
-
-Once activated, proceed to [Academic Setup & Board Presets](/nexora/academic-setup) to configure your school hierarchy.

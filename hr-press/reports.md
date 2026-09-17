@@ -43,7 +43,7 @@ Generate organizational summaries, attendance audits, leave utilization metrics,
 
 ## 4. Employee Census Export
 
-Download complete, uncorrupted employee records for regulatory compliance, insurance audits, or migration:
+Download employee records for regulatory compliance, insurance audits, or migration:
 * Go to **HR Press > Reports > Employee Census**.
 * Click **Download CSV**.
 

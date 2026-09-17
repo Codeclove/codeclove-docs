@@ -1,6 +1,6 @@
 # Roles & Permissions (RBAC)
 
-Nexora includes a granular Role-Based Access Control (RBAC) system to ensure teachers, accountants, front-desk staff, and administrators only access the modules relevant to their responsibilities.
+Nexora's RBAC system limits each role to the modules it needs. Teachers, accountants, front-desk staff, and administrators each see only what their role requires.
 
 ---
 

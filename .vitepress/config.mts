@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   title: 'CodeClove Docs',
-  description: 'Official documentation and setup guides for CodeClove WordPress plugins.',
+  description: 'Documentation and setup guides for CodeClove plugins.',
   cleanUrls: true,
   lastUpdated: true,
   sitemap: {
@@ -10,29 +10,19 @@ export default defineConfig({
   },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
-    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap' }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'CodeClove Docs' }],
     ['meta', { property: 'og:title', content: 'CodeClove Docs: Plugin Documentation & Setup Guides' }],
-    ['meta', { property: 'og:description', content: 'Official setup guides, architecture, and references for CodeClove WordPress plugins including Nexora and HR Press Pro.' }],
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'CodeClove Docs: Plugin Documentation & Setup Guides' }],
-    ['meta', { name: 'twitter:description', content: 'Official setup guides, architecture, and references for CodeClove WordPress plugins.' }],
+    ['meta', { property: 'og:description', content: 'Setup guides, architecture docs, and references for Nexora and HR Press Pro.' }],
   ],
   markdown: {
     theme: { light: 'github-light', dark: 'github-dark' },
   },
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'CodeClove Docs',
     search: {
       provider: 'local',
-      options: {
-        placeholder: 'Search documentation, guides, and settings...',
-      },
     },
     nav: [
       { text: 'Nexora', link: '/nexora/' },
@@ -44,7 +34,6 @@ export default defineConfig({
       '/nexora/': [
         {
           text: 'Getting Started',
-          collapsed: false,
           items: [
             { text: 'Introduction', link: '/nexora/' },
             { text: 'Installation & Activation', link: '/nexora/installation' },
@@ -52,7 +41,6 @@ export default defineConfig({
         },
         {
           text: 'Academic Setup',
-          collapsed: false,
           items: [
             { text: 'Academic Sessions & Presets', link: '/nexora/academic-setup' },
             { text: 'Timetable & Substitution', link: '/nexora/timetable' },
@@ -60,7 +48,6 @@ export default defineConfig({
         },
         {
           text: 'Students & Admissions',
-          collapsed: false,
           items: [
             { text: 'Student Admissions', link: '/nexora/admissions' },
             { text: 'Student Directory & SIS', link: '/nexora/student-directory' },
@@ -68,7 +55,6 @@ export default defineConfig({
         },
         {
           text: 'Staff & Permissions',
-          collapsed: false,
           items: [
             { text: 'Staff & Faculty Management', link: '/nexora/staff-management' },
             { text: 'Roles & Permissions (RBAC)', link: '/nexora/roles-permissions' },
@@ -76,7 +62,6 @@ export default defineConfig({
         },
         {
           text: 'Operations & Billing',
-          collapsed: false,
           items: [
             { text: 'Attendance Tracking', link: '/nexora/attendance' },
             { text: 'Fee Management & Invoicing', link: '/nexora/fee-management' },
@@ -84,7 +69,6 @@ export default defineConfig({
         },
         {
           text: 'Configuration & Reference',
-          collapsed: false,
           items: [
             { text: 'SMS & Notifications', link: '/nexora/notifications-sms' },
             { text: 'Settings & Identifiers', link: '/nexora/settings-identifiers' },
@@ -95,7 +79,6 @@ export default defineConfig({
       '/hr-press/': [
         {
           text: 'Getting Started',
-          collapsed: false,
           items: [
             { text: 'Introduction', link: '/hr-press/' },
             { text: 'Installation & Activation', link: '/hr-press/installation' },
@@ -103,7 +86,6 @@ export default defineConfig({
         },
         {
           text: 'Organization & Staff',
-          collapsed: false,
           items: [
             { text: 'Organization & Departments', link: '/hr-press/organization-setup' },
             { text: 'Employee Directory', link: '/hr-press/employee-management' },
@@ -112,7 +94,6 @@ export default defineConfig({
         },
         {
           text: 'Time & Leave',
-          collapsed: false,
           items: [
             { text: 'Holiday Calendars', link: '/hr-press/holidays' },
             { text: 'Leave Management', link: '/hr-press/leave-management' },
@@ -121,7 +102,6 @@ export default defineConfig({
         },
         {
           text: 'Payroll & Operations',
-          collapsed: false,
           items: [
             { text: 'Payroll & Payslips', link: '/hr-press/payroll' },
             { text: 'Company Announcements', link: '/hr-press/announcements' },
@@ -130,21 +110,12 @@ export default defineConfig({
         },
         {
           text: 'Configuration & Reference',
-          collapsed: false,
           items: [
             { text: 'Settings & Email Notifications', link: '/hr-press/settings' },
             { text: 'Shortcode Reference', link: '/hr-press/shortcodes-reference' },
           ],
         },
       ],
-    },
-    outline: {
-      level: [2, 3],
-      label: 'On this page',
-    },
-    docFooter: {
-      prev: 'Previous Page',
-      next: 'Next Page',
     },
     footer: {
       message: 'WordPress plugins & themes by CodeClove.',

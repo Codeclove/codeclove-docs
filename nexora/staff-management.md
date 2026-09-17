@@ -36,7 +36,7 @@ Print professional faculty badges and employee identity cards:
 
 ## 3. Online Staff Onboarding Forms
 
-Nexora allows prospective teachers and staff candidates to apply online through embedded shortcodes.
+Embed shortcodes on any page to collect staff applications online.
 
 ### Staff Application Form Shortcode
 ```text

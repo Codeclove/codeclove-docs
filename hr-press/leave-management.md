@@ -23,7 +23,7 @@ Configure leave categories, assign annual quotas, manage employee time-off appli
 
 ## 2. Employee Leave Applications
 
-Employees can apply for leave through the WordPress admin or the front-end employee portal:
+Employees apply for leave through `/wp-admin` or the front-end portal (`[hrp_leaves]`):
 
 1. In the employee portal or **HR Press > Leaves > Apply Leave**:
 2. Select **Leave Type**.

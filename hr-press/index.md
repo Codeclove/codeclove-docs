@@ -1,6 +1,6 @@
 # HR Press Pro
 
-**HR Press Pro** is a self-hosted Human Resource Management (HRMS) plugin built specifically for WordPress. It gives businesses, agencies, educational institutions, and enterprises a centralized dashboard to manage employee directories, organizational hierarchies, shifts, leave allocations, daily web attendance, payroll, and company announcements.
+**HR Press Pro** is a self-hosted HR management plugin for WordPress. It manages employee directories, organizational hierarchies, shifts, leave, daily attendance, payroll, and company announcements, all from the WordPress dashboard.
 
 ---
 
@@ -14,7 +14,7 @@
 * **Holiday Calendars:** Annual holiday scheduling, multi-day recurring events, and regional holiday assignments.
 * **Payroll & Payslips:** Basic salary configurations, custom allowances, tax/deduction calculations, monthly payslip generation, and payment status tracking.
 * **Company Announcements:** Broadcast notices to all staff or targeted specific departments.
-* **Reports & Analytics:** Attendance percentage reports, leave balance utilization sheets, payroll summaries, and CSV/Excel data export.
+* **Reports & Exports:** Attendance percentage reports, leave balance utilization sheets, payroll summaries, and CSV/Excel data export.
 * **Employee Self-Service Portal:** Front-end shortcodes allowing staff to view their personal profile, submit leave requests, check holiday schedules, and clock in/out without accessing `wp-admin`.
 
 ---
@@ -34,19 +34,3 @@ HR Press Pro runs on standard WordPress hosting environments.
 
 ---
 
-## Documentation Navigation
-
-| Topic | Description |
-|---|---|
-| [Installation & License Activation](/hr-press/installation) | Plugin installation, activating license keys, staging domain policy, and updates |
-| [Organization & Departments](/hr-press/organization-setup) | Creating departments, assigning department heads, and defining designations |
-| [Employee Directory](/hr-press/employee-management) | Adding staff, employment terms, user linking, and document management |
-| [Shifts & Work Schedules](/hr-press/shifts-schedules) | Defining work hours, clock-in grace periods, and late thresholds |
-| [Holiday Calendars](/hr-press/holidays) | Managing company holidays and regional holiday schedules |
-| [Leave Management](/hr-press/leave-management) | Leave types, annual quotas, employee requests, and manager approvals |
-| [Attendance Tracking](/hr-press/attendance-tracking) | Daily web clock-in, manual adjustments, overtime, and monthly timesheets |
-| [Payroll & Payslips](/hr-press/payroll) | Salary structures, allowances, deductions, and payslip generation |
-| [Announcements](/hr-press/announcements) | Company broadcasts, department notices, and employee noticeboards |
-| [Reports & Exports](/hr-press/reports) | Attendance summaries, leave audits, and CSV/Excel exports |
-| [Settings & Email Notifications](/hr-press/settings) | Company details, working days, email templates, and alerts |
-| [Shortcode Reference](/hr-press/shortcodes-reference) | Master reference for front-end portals and widgets |

@@ -38,12 +38,7 @@ Designations define the formal role titles held by employees within specific dep
 
 ---
 
-## 3. Departmental Hierarchy & Reporting Lines
-
-When employees are added to HR Press, linking them to a department and designation establishes the organizational chart:
-
-* **Department Heads:** Receive email alerts when department members apply for leave or log irregular attendance.
-* **Role Permissions:** Allows administrators to restrict announcement broadcasts and reports by department.
+Linking employees to a department and designation establishes the organizational chart. Department heads receive email alerts when members apply for leave or log irregular attendance. Administrators can also restrict announcement broadcasts and reports by department.
 
 ---
 

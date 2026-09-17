@@ -1,6 +1,6 @@
 # SMS & Automated Notifications
 
-Nexora connects with leading SMS gateway providers to send instant automated alerts to parents, students, and faculty for attendance absences, admission milestones, and fee due reminders.
+Nexora integrates with Twilio, Msg91, Fast2SMS, and Vonage to send SMS alerts for attendance absences, admission status changes, and fee due reminders.
 
 ---
 

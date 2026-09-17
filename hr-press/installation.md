@@ -1,6 +1,6 @@
 # Installation & License Activation
 
-This guide details how to install HR Press Pro on your WordPress site and activate your license for automatic updates.
+Install HR Press Pro, activate your license, and enable automatic dashboard updates.
 
 ---
 
@@ -45,6 +45,3 @@ Your license key allows unlimited local staging activations (`*.test`, `*.local`
 
 ---
 
-## Next Steps
-
-Set up your company hierarchy and staff directory in [Organization & Employee Setup](/hr-press/organization-setup).

@@ -6,7 +6,7 @@ Manage student profiles, print official ID cards, import bulk records via CSV, a
 
 ## 1. Student Directory
 
-The centralized Student Directory provides a searchable roster of all enrolled students:
+The Student Directory lists all enrolled students:
 
 1. Navigate to **Nexora > Students > Directory**.
 2. Filter students using top-level filter controls:
@@ -53,7 +53,7 @@ When onboarding a large number of existing students, use the CSV import wizard:
 4. Upload the CSV file in the import wizard.
 5. Review the column mapping screen to ensure CSV columns match Nexora fields.
 6. Click **Run Import**.
-7. The import validator reports successful imports and flags rows with format errors for quick correction.
+7. The import validator reports successful imports and flags rows with format errors for correction.
 
 ---
 

@@ -23,8 +23,7 @@ Nexora manages all students, attendance logs, timetables, and fee invoices withi
 
 The global header in the Nexora dashboard includes a **Session Selector**. 
 
-* Changing the selector allows administrators to view past archived sessions, manage the current active session, or prepare future academic sessions without altering current live records.
-* Past sessions switch to read-only mode by default to prevent accidental modifications.
+* The selector switches between sessions. Past sessions open in read-only mode to prevent accidental modifications.
 
 ---
 

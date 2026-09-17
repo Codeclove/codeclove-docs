@@ -183,13 +183,13 @@
 }
 
 .portal-card:hover {
-  border-color: #2563eb;
+  border-color: var(--vp-c-brand-3);
   transform: translateY(-2px);
   box-shadow: 0 12px 24px -8px rgba(37, 99, 235, 0.15);
 }
 
 .dark .portal-card:hover {
-  border-color: #5d9bfb;
+  border-color: var(--vp-c-brand-2);
   box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.5);
 }
 
@@ -307,15 +307,15 @@
 }
 
 .card-main-btn:hover {
-  background: #2563eb;
-  color: #ffffff;
-  border-color: #2563eb;
+  background: var(--vp-c-brand-3);
+  color: #fff;
+  border-color: var(--vp-c-brand-3);
 }
 
 /* ── Inline Code ───────────────────────────────────────────── */
 :not(pre) > code {
-  font-family: var(--vp-font-family-mono) !important;
-  font-size: 0.8125em !important;
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.8125em;
   font-weight: 450;
   padding: 0.15em 0.4em;
   border-radius: 4px;
@@ -394,12 +394,12 @@
 }
 
 .VPSidebarItem.is-active > .item {
-  background: var(--vp-c-bg-soft) !important;
+  background: var(--vp-c-bg-soft);
 }
 
 .VPSidebarItem.is-active > .item .text {
-  color: var(--vp-c-brand-1) !important;
-  font-weight: 600 !important;
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
 }
 
 /* ── Horizontal Rules ──────────────────────────────────────── */
@@ -407,4 +407,11 @@
   border: none;
   border-top: 1px solid var(--vp-c-divider);
   margin: 2rem 0;
+}
+
+/* ── Badge: HR Press variant ────────────────────────────────── */
+.card-category-badge--hr {
+  color: #a855f7;
+  background: rgba(168, 85, 247, 0.1);
+  border-color: rgba(168, 85, 247, 0.2);
 }
