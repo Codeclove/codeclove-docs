@@ -1,42 +1,52 @@
-# Organization & Employee Setup
+# Organization & Departments
 
-Configure your company's departmental structure, job titles, and employee directory.
+Configure your company's organizational hierarchy, departments, and job titles (designations).
 
 ---
 
 ## 1. Creating Departments
 
-1. Navigate to **HR Press > Organization > Departments**.
-2. Click **Add Department**.
-3. Enter the Department Name (e.g., `Engineering`, `Marketing`, `Finance`, `Operations`).
-4. Select a **Department Head / Manager** (optional).
-5. Click **Save Department**.
+Departments group employees into operational units (e.g., Engineering, Human Resources, Sales, Marketing, Finance).
+
+1. Navigate to **HR Press > Departments**.
+2. Click **Add Department** (or use the inline form).
+3. Fill in the department parameters:
+   * **Department Name:** e.g., `Engineering`, `Marketing`, `Customer Success`.
+   * **Department Code:** e.g., `ENG`, `MKT`, `CS`.
+   * **Department Head / Manager:** Select an employee from your staff directory to act as the primary department supervisor.
+   * **Description:** Optional summary of departmental responsibilities.
+4. Click **Save Department**.
+
+### Department Actions
+* **Edit:** Update department name, code, or reassign department head.
+* **View Members:** Filter the employee directory to view all personnel assigned to the department.
+* **Delete:** Remove a department. Note: Any assigned employees must be reassigned to another department before deletion.
 
 ---
 
-## 2. Defining Designations (Job Titles)
+## 2. Managing Designations (Job Titles)
 
-1. Navigate to **HR Press > Organization > Designations**.
+Designations define the formal role titles held by employees within specific departments.
+
+1. Navigate to **HR Press > Designations**.
 2. Click **Add Designation**.
-3. Enter the Job Title (e.g., `Senior Software Engineer`, `Product Designer`, `Accountant`).
-4. Assign the designation to its primary department.
-5. Click **Save Designation**.
+3. Configure designation fields:
+   * **Designation Title:** e.g., `Senior Software Engineer`, `Product Manager`, `HR Generalist`.
+   * **Department:** Select the parent department this role belongs to.
+   * **Description:** Optional summary of role duties and responsibilities.
+4. Click **Save Designation**.
 
 ---
 
-## 3. Adding Employees
+## 3. Departmental Hierarchy & Reporting Lines
 
-You can add employees manually or invite them via their WordPress user account.
+When employees are added to HR Press, linking them to a department and designation establishes the organizational chart:
 
-1. Navigate to **HR Press > Employees > Add New**.
-2. Fill out the core profile:
-   * **Personal Information:** Full Name, Date of Birth, Gender, Contact Email, Phone.
-   * **Employment Details:** Employee ID, Joining Date, Employment Type (Full-time, Part-time, Contract), Department, Designation, Reporting Manager.
-   * **User Account:** Link to an existing WordPress user or create a new user profile with the `Employee` role.
-3. Click **Create Employee Profile**.
+* **Department Heads:** Receive email alerts when department members apply for leave or log irregular attendance.
+* **Role Permissions:** Allows administrators to restrict announcement broadcasts and reports by department.
 
 ---
 
 ## Next Steps
 
-Configure leave quotas and work hour policies in [Leave & Attendance](/hr-press/leave-attendance).
+With departments and designations configured, add team members in [Employee Directory](/hr-press/employee-management).

@@ -39,5 +39,5 @@ features:
   <a href="/nexora/academic-setup" class="chip-tag">CBSE / ICSE Setup</a>
   <a href="/nexora/fee-management" class="chip-tag">Fee Structures</a>
   <a href="/nexora/admissions" class="chip-tag">Online Admissions</a>
-  <a href="/hr-press/leave-attendance" class="chip-tag">Leave Policies</a>
+  <a href="/hr-press/leave-management" class="chip-tag">Leave Policies</a>
 </div>

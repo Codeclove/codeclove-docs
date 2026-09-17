@@ -102,11 +102,38 @@ export default defineConfig({
           ],
         },
         {
-          text: 'Configuration',
+          text: 'Organization & Staff',
           collapsed: false,
           items: [
-            { text: 'Organization & Employees', link: '/hr-press/organization-setup' },
-            { text: 'Leave & Attendance', link: '/hr-press/leave-attendance' },
+            { text: 'Organization & Departments', link: '/hr-press/organization-setup' },
+            { text: 'Employee Directory', link: '/hr-press/employee-management' },
+            { text: 'Shifts & Work Schedules', link: '/hr-press/shifts-schedules' },
+          ],
+        },
+        {
+          text: 'Time & Leave',
+          collapsed: false,
+          items: [
+            { text: 'Holiday Calendars', link: '/hr-press/holidays' },
+            { text: 'Leave Management', link: '/hr-press/leave-management' },
+            { text: 'Attendance Tracking', link: '/hr-press/attendance-tracking' },
+          ],
+        },
+        {
+          text: 'Payroll & Operations',
+          collapsed: false,
+          items: [
+            { text: 'Payroll & Payslips', link: '/hr-press/payroll' },
+            { text: 'Company Announcements', link: '/hr-press/announcements' },
+            { text: 'Reports & Exports', link: '/hr-press/reports' },
+          ],
+        },
+        {
+          text: 'Configuration & Reference',
+          collapsed: false,
+          items: [
+            { text: 'Settings & Email Notifications', link: '/hr-press/settings' },
+            { text: 'Shortcode Reference', link: '/hr-press/shortcodes-reference' },
           ],
         },
       ],
