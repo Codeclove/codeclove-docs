@@ -8,7 +8,7 @@ Manage teaching and non-teaching faculty records, publish online job application
 
 The Staff Directory provides a centralized record of all teachers, administrative personnel, accountants, and support staff:
 
-1. Navigate to **Nexora > Staff & HR > Staff Directory**.
+1. Navigate to **School Management Pro > Staff & HR > Staff Directory**.
 2. Filter staff by:
    * **Role / Designation:** e.g., Teacher, Principal, Accountant, Front Desk, Librarian.
    * **Department:** e.g., Science Department, Administration, Mathematics.
@@ -25,7 +25,7 @@ The Staff Directory provides a centralized record of all teachers, administrativ
 
 Print professional faculty badges and employee identity cards:
 
-1. In **Nexora > Staff & HR > Staff Directory**, select the staff members to print.
+1. In **School Management Pro > Staff & HR > Staff Directory**, select the staff members to print.
 2. Click **Print ID Cards**.
 3. Choose layout options:
    * Display school logo, employee photograph, name, designation, department, blood group, and emergency contact.
@@ -56,7 +56,7 @@ Enables applicants to check their hiring status using their application referenc
 
 When a prospective employee applies online:
 
-1. Navigate to **Nexora > Staff & HR > Onboarding** (or **Staff Applications**).
+1. Navigate to **School Management Pro > Staff & HR > Onboarding** (or **Staff Applications**).
 2. Click on an applicant's dossier to review their resume, qualifications, and references.
 3. Update review status: `Submitted`, `Under Review`, `Interview Scheduled`, `Offer Extended`, `Accepted`, `Rejected`.
 4. When hiring is confirmed, click **Convert to Staff**:
@@ -70,4 +70,4 @@ When a prospective employee applies online:
 
 ## Next Steps
 
-Configure system permissions and role capabilities in [Roles & Permissions](/nexora/roles-permissions).
+Configure system permissions and role capabilities in [Roles & Permissions](/school-management-pro/roles-permissions).

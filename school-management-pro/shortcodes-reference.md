@@ -1,6 +1,6 @@
 # Shortcode Reference
 
-Nexora provides frontend shortcodes to embed public admissions forms, applicant tracking widgets, staff onboarding portals, and the student/guardian self-service portal onto any WordPress page, post, or block layout.
+CodeClove School Management Pro provides frontend shortcodes to embed public admissions forms, applicant tracking widgets, staff onboarding portals, and the student/guardian self-service portal onto any WordPress page, post, or block layout.
 
 ---
 
@@ -91,7 +91,7 @@ Enables job applicants to track their hiring progress:
 ---
 ### `[nexora_portal]`
 
-Mounts the Nexora student and guardian self-service portal on any page.
+Mounts the CodeClove School Management Pro student and guardian self-service portal on any page.
 
 ```text
 [nexora_portal]
@@ -101,7 +101,7 @@ Mounts the Nexora student and guardian self-service portal on any page.
 
 **Authenticated behavior:** Loads the full React portal application (served from the compiled production build). The admin bar is automatically hidden for users with the `nexora_guardian` or `nexora_student` role.
 
-The portal page URL should be set under **Nexora > Settings** so that login redirects resolve correctly.
+The portal page URL should be set under **School Management Pro > Settings** so that login redirects resolve correctly.
 
 ---
 

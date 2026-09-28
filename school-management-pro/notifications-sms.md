@@ -1,12 +1,12 @@
 # SMS & Automated Notifications
 
-Nexora integrates with Twilio, Msg91, Fast2SMS, and Vonage to send SMS alerts for attendance absences, admission status changes, and fee due reminders.
+CodeClove School Management Pro integrates with Twilio, Msg91, Fast2SMS, and Vonage to send SMS alerts for attendance absences, admission status changes, and fee due reminders.
 
 ---
 
 ## 1. Supported SMS Gateways
 
-Nexora includes native drivers for major international and regional SMS providers:
+CodeClove School Management Pro includes native drivers for major international and regional SMS providers:
 
 | Provider | Target Regions | Supported Credentials |
 |---|---|---|
@@ -19,7 +19,7 @@ Nexora includes native drivers for major international and regional SMS provider
 
 ## 2. Configuring an SMS Gateway
 
-1. Navigate to **Nexora > Settings > Notifications > SMS Gateways** (or **SMS Tab**).
+1. Navigate to **School Management Pro > Settings > Notifications > SMS Gateways** (or **SMS Tab**).
 2. Select your active **SMS Driver**:
    * **Twilio:** Enter your Twilio `Account SID`, `Auth Token`, and assigned Twilio `Sender Phone Number`.
    * **Msg91:** Enter your `Auth Key` and approved 6-character `Sender ID`. Configure DLT Flow / Template IDs.
@@ -36,7 +36,7 @@ Nexora includes native drivers for major international and regional SMS provider
 
 Configure which operational events trigger automated SMS messages:
 
-In **Nexora > Settings > Notifications**, toggle individual event rules and customize message templates:
+In **School Management Pro > Settings > Notifications**, toggle individual event rules and customize message templates:
 
 ### 1. Daily Student Absence Alert
 * **Trigger:** When a student is marked *Absent* during daily attendance.
@@ -76,7 +76,7 @@ In **Nexora > Settings > Notifications**, toggle individual event rules and cust
 
 Publish internal school notices to staff and faculty dashboards:
 
-1. Navigate to **Nexora > Dashboard > Announcements** (or **Notice Board**).
+1. Navigate to **School Management Pro > Dashboard > Announcements** (or **Notice Board**).
 2. Click **Create Announcement**.
 3. Fill in announcement details:
    * **Title:** e.g., `Upcoming Annual Sports Day Schedule`.
@@ -89,4 +89,4 @@ Publish internal school notices to staff and faculty dashboards:
 
 ## Next Steps
 
-Configure school profile defaults and custom numbering formats in [Settings & Identifiers](/nexora/settings-identifiers).
+Configure school profile defaults and custom numbering formats in [Settings & Identifiers](/school-management-pro/settings-identifiers).

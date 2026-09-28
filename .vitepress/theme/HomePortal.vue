@@ -3,43 +3,42 @@
     <div class="portal-header">
       <div class="portal-badge">Official Documentation</div>
       <h1 class="portal-title">CodeClove Documentation</h1>
-      <p class="portal-tagline">Installation, setup guides, and technical references for Nexora and HR Press.</p>
+      <p class="portal-tagline">Installation, setup guides, and technical references for CodeClove School Management Pro and HR Press Pro.</p>
     </div>
 
     <div class="portal-grid">
       <div class="portal-card">
         <div class="card-header-row">
           <div class="card-icon-box">
-            <img src="/icons/nexora.svg" alt="Nexora" width="24" height="24" />
+            <img src="/icons/nexora.svg" alt="CodeClove School Management Pro" width="24" height="24" />
           </div>
           <span class="card-category-badge">School ERP</span>
         </div>
         
-        <h2 class="card-product-title">Nexora</h2>
-        <p class="card-product-desc">Self-hosted school information system. Manage academic sessions, timetables, admissions, attendance, and fee invoicing.</p>
+        <h2 class="card-product-title">CodeClove School Management Pro</h2>
+        <p class="card-product-desc">Enterprise-grade self-hosted school information system. Manage academic sessions, timetables, admissions, attendance, and fee invoicing.</p>
 
         <div class="card-links-list">
           <div class="card-links-heading">Popular Guides</div>
-          <a href="/nexora/installation" class="card-link-item">
+          <a href="/school-management-pro/installation" class="card-link-item">
             <span>Installation &amp; License Activation</span>
             <span class="card-link-arrow">&rarr;</span>
           </a>
-          <a href="/nexora/academic-setup" class="card-link-item">
+          <a href="/school-management-pro/academic-setup" class="card-link-item">
             <span>Academic Sessions &amp; Board Presets</span>
             <span class="card-link-arrow">&rarr;</span>
           </a>
-          <a href="/nexora/admissions" class="card-link-item">
+          <a href="/school-management-pro/admissions" class="card-link-item">
             <span>Student Admissions Pipeline</span>
             <span class="card-link-arrow">&rarr;</span>
           </a>
-          <a href="/nexora/fee-management" class="card-link-item">
+          <a href="/school-management-pro/fee-management" class="card-link-item">
             <span>Fee Structures &amp; Invoicing</span>
             <span class="card-link-arrow">&rarr;</span>
           </a>
         </div>
-
         <div class="card-action-bar">
-          <a href="/nexora/" class="card-main-btn">Open Nexora Docs &rarr;</a>
+          <a href="/school-management-pro/" class="card-main-btn">Open School Management Docs &rarr;</a>
         </div>
       </div>
 

@@ -1,6 +1,6 @@
 # Student Admissions
 
-Nexora handles the full admissions cycle: public application forms, document uploads, staged review, and conversion to a student record.
+CodeClove School Management Pro handles the full admissions cycle: public application forms, document uploads, staged review, and conversion to a student record.
 
 ---
 
@@ -32,7 +32,7 @@ Provide a self-service tracking portal where applicants check their review statu
 
 Configure required documents, review stages, and notification recipients before opening admissions:
 
-1. Navigate to **Nexora > Settings > Admissions**.
+1. Navigate to **School Management Pro > Settings > Admissions**.
 2. Configure workflow parameters:
    * **Target Academic Session:** Specify which academic year applications apply to.
    * **Allowed Classes:** Select which grades/classes are accepting new admissions.
@@ -51,7 +51,7 @@ Configure required documents, review stages, and notification recipients before 
 
 When an applicant submits a form, an **Application Reference** (e.g., `NX-APP-2026-0042`) is generated and the dossier appears in the admissions queue:
 
-1. Navigate to **Nexora > Students > Admissions** (or **Admissions > Applications**).
+1. Navigate to **School Management Pro > Students > Admissions** (or **Admissions > Applications**).
 2. Use status filters to manage the review pipeline:
    * **Submitted:** Newly submitted applications awaiting initial verification.
    * **Under Review:** Documents are being verified by the admissions desk.
@@ -70,7 +70,7 @@ When an applicant submits a form, an **Application Reference** (e.g., `NX-APP-20
 
 Once an applicant is **Accepted** and registration fees are received, convert the application into a permanent student record:
 
-1. Open the accepted application in **Nexora > Students > Admissions**.
+1. Open the accepted application in **School Management Pro > Students > Admissions**.
 2. Click **Convert to Student**.
 3. In the conversion modal, configure enrollment details:
    * **Academic Session:** Select the active academic session.
@@ -91,4 +91,4 @@ Once an applicant is **Accepted** and registration fees are received, convert th
 
 ## Next Steps
 
-Manage active students, print identity cards, and handle bulk operations in [Student Directory & SIS](/nexora/student-directory).
+Manage active students, print identity cards, and handle bulk operations in [Student Directory & SIS](/school-management-pro/student-directory).

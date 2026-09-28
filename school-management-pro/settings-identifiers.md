@@ -8,7 +8,7 @@ Configure school identity, custom numbering sequences for student and financial 
 
 Store institution-level metadata used across student ID cards, invoices, receipts, and public admission forms:
 
-1. Navigate to **Nexora > Settings > General**.
+1. Navigate to **School Management Pro > Settings > General**.
 2. Configure profile fields:
    * **School Name:** Official institution name (e.g., *St. Jude International Academy*).
    * **School Code / Affiliation Number:** e.g., *CBSE/AFF/10304* or *DCS-092*.
@@ -22,9 +22,9 @@ Store institution-level metadata used across student ID cards, invoices, receipt
 
 ## 2. Custom Numbering Sequences (Identifiers)
 
-Nexora gives administrators precise control over how automatic reference codes, admission numbers, student IDs, employee IDs, and invoice numbers are structured:
+CodeClove School Management Pro gives administrators precise control over how automatic reference codes, admission numbers, student IDs, employee IDs, and invoice numbers are structured:
 
-1. Navigate to **Nexora > Settings > Identifiers**.
+1. Navigate to **School Management Pro > Settings > Identifiers**.
 2. Configure numbering patterns for each record type:
 
 | Identifier Type | Token Structure Example | Sample Output | Purpose |
@@ -50,7 +50,7 @@ Nexora gives administrators precise control over how automatic reference codes, 
 
 Ensure date formats, currency symbols, and timezones align with your regional operations:
 
-1. Navigate to **Nexora > Settings > Localization**.
+1. Navigate to **School Management Pro > Settings > Localization**.
 2. Configure regional preferences:
    * **Base Currency:** Select your operating currency (e.g., `USD ($)`, `INR (₹)`, `GBP (£)`, `EUR (€)`, `AED`, `CAD`).
    * **Currency Position:** Display symbol before amount (`$500`) or after amount (`500 USD`).
@@ -68,7 +68,7 @@ Ensure date formats, currency symbols, and timezones align with your regional op
 
 ## 4. System Maintenance & Diagnostics
 
-1. Navigate to **Nexora > Settings > System**.
+1. Navigate to **School Management Pro > Settings > System**.
 2. Monitor core system health:
    * **Schema & Database Version:** Current installed database migration table version.
    * **REST API Health:** Verification that WordPress REST API endpoints are communicating without security plugin blocks.
@@ -79,4 +79,4 @@ Ensure date formats, currency symbols, and timezones align with your regional op
 
 ## Next Steps
 
-Review all available frontend embed codes in the [Shortcode Reference](/nexora/shortcodes-reference).
+Review all available frontend embed codes in the [Shortcode Reference](/school-management-pro/shortcodes-reference).

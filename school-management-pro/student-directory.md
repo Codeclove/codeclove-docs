@@ -8,7 +8,7 @@ Manage student profiles, print official ID cards, import bulk records via CSV, a
 
 The Student Directory lists all enrolled students:
 
-1. Navigate to **Nexora > Students > Directory**.
+1. Navigate to **School Management Pro > Students > Directory**.
 2. Filter students using top-level filter controls:
    * **Academic Session:** View students in the active or previous sessions.
    * **Class & Section:** Narrow down to specific grade levels or homeroom sections.
@@ -30,7 +30,7 @@ Click on any student record to open the full profile:
 
 Generate and print standardized student identity cards with barcodes or QR codes:
 
-1. Navigate to **Nexora > Students > Directory**.
+1. Navigate to **School Management Pro > Students > Directory**.
 2. Select individual students using checkboxes, or choose **Select All in Class/Section**.
 3. In the bulk actions dropdown, select **Print ID Cards** (or click **Print ID Card** on a student profile).
 4. Configure card layout parameters:
@@ -46,12 +46,12 @@ Generate and print standardized student identity cards with barcodes or QR codes
 
 When onboarding a large number of existing students, use the CSV import wizard:
 
-1. Navigate to **Nexora > Students > Directory** and click **Import Students**.
+1. Navigate to **School Management Pro > Students > Directory** and click **Import Students**.
 2. Click **Download Sample CSV Template** to obtain the standardized spreadsheet structure with required headers:
    * `first_name`, `last_name`, `gender`, `dob`, `admission_number`, `class_name`, `section_name`, `roll_number`, `guardian_name`, `guardian_phone`, `guardian_email`.
 3. Fill out your student roster in Excel or Google Sheets and export as `.csv`.
 4. Upload the CSV file in the import wizard.
-5. Review the column mapping screen to ensure CSV columns match Nexora fields.
+5. Review the column mapping screen to ensure CSV columns match School Management Pro fields.
 6. Click **Run Import**.
 7. The import validator reports successful imports and flags rows with format errors for correction.
 
@@ -61,7 +61,7 @@ When onboarding a large number of existing students, use the CSV import wizard:
 
 At the conclusion of an academic year, transition students to the next grade or retain them in the current class:
 
-1. Navigate to **Nexora > Students > Promotion** (or **Academic > Promotion**).
+1. Navigate to **School Management Pro > Students > Promotion** (or **Academic > Promotion**).
 2. Configure promotion criteria:
    * **Source Session:** Select the concluding academic year (e.g., `2025-2026`).
    * **Target Session:** Select the upcoming academic year (e.g., `2026-2027`).
@@ -82,4 +82,4 @@ Promoting students creates new enrollment entries in the target academic session
 
 ## Next Steps
 
-Manage faculty records and permissions in [Staff Management](/nexora/staff-management) and [Roles & Permissions](/nexora/roles-permissions).
+Manage faculty records and permissions in [Staff Management](/school-management-pro/staff-management) and [Roles & Permissions](/school-management-pro/roles-permissions).

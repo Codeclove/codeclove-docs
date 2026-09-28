@@ -1,6 +1,6 @@
-# Nexora
+# CodeClove School Management Pro
 
-**Nexora** is a self-hosted school management and ERP plugin for WordPress. It runs entirely in WordPress, with no external service dependency, and handles academic and administrative operations directly from the dashboard.
+**CodeClove School Management Pro** is a self-hosted school management and ERP plugin for WordPress. It runs entirely in WordPress, with no external service dependency, and handles academic and administrative operations directly from the dashboard.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## System Requirements
 
-Nexora runs on standard WordPress-compatible PHP hosting environments.
+CodeClove School Management Pro runs on standard WordPress-compatible PHP hosting environments.
 
 | Requirement | Minimum | Recommended |
 |---|---|---|

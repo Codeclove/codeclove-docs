@@ -1,18 +1,18 @@
 # Installation & License Activation
 
-Install Nexora, activate your license key, and get automatic dashboard updates.
+Install CodeClove School Management Pro, activate your license key, and get automatic dashboard updates.
 
 ---
 
 ::: tip Prerequisites
-Ensure your server meets the minimum requirements before installation: **PHP 8.1 or higher**, **WordPress 6.5+**, and **MySQL 5.7+ / MariaDB 10.3+**. Nexora uses standard WordPress REST API endpoints.
+Ensure your server meets the minimum requirements before installation: **PHP 8.1 or higher**, **WordPress 6.5+**, and **MySQL 5.7+ / MariaDB 10.3+**. CodeClove School Management Pro uses standard WordPress REST API endpoints.
 :::
 
 <div class="step-list">
   <div class="step-item" id="step-1-download-the-plugin-zip">
     <div class="step-number">1</div>
     <div class="step-title">Download the Plugin ZIP</div>
-    <p>Log in to your <a href="https://codeclove.com/account/" target="_blank" rel="noopener">CodeClove Account</a>, navigate to the <strong>Downloads</strong> tab, and click <strong>Download</strong> next to <strong>Nexora - Education Management System</strong> to get the <code>nexora.zip</code> file. Copy your <strong>License Key</strong> from the same screen.</p>
+    <p>Log in to your <a href="https://codeclove.com/account/" target="_blank" rel="noopener">CodeClove Account</a>, navigate to the <strong>Downloads</strong> tab, and click <strong>Download</strong> next to <strong>CodeClove School Management Pro</strong> to get the <code>nexora.zip</code> file. Copy your <strong>License Key</strong> from the same screen.</p>
   </div>
 
   <div class="step-item" id="step-2-upload-and-install-via-wordpress-dashboard">
@@ -32,7 +32,7 @@ Ensure your server meets the minimum requirements before installation: **PHP 8.1
     <div class="step-title">Activate Your License Key</div>
     <p>An active license key enables automatic updates in your WordPress dashboard.</p>
     <ol>
-      <li>Go to <strong>Nexora &gt; Settings &gt; System</strong> (or <strong>License</strong> tab).</li>
+      <li>Go to <strong>School Management Pro &gt; Settings &gt; System</strong> (or <strong>License</strong> tab).</li>
       <li>Paste your license key into the <strong>License Key</strong> input field.</li>
       <li>Click <strong>Activate License</strong>.</li>
       <li>The status indicator will switch to <span style="color:#10b981; font-weight:600;">Active</span>.</li>
@@ -49,7 +49,7 @@ Your license key can be activated on local development environments and staging 
 * Local development domains: `*.test`, `*.local`, `localhost`, `127.0.0.1`.
 * Staging subdomains: `staging.*`, `dev.*`, `test.*`.
 
-When migrating from staging to your live production domain, activate the license key on the live site from **Nexora > Settings**.
+When migrating from staging to your live production domain, activate the license key on the live site from **School Management Pro > Settings**.
 
 ---
 
@@ -69,7 +69,7 @@ Licenses renew annually. Renewal covers updates, WordPress compatibility patches
 
 1. Log in to your [CodeClove Account](https://codeclove.com/account/).
 2. Navigate to the **Licenses** tab.
-3. Click **Renew** next to your Nexora license key.
+3. Click **Renew** next to your CodeClove School Management Pro license key.
 4. Complete the checkout process.
 5. Your active license key will instantly extend without requiring re-entry in your WordPress dashboard.
 

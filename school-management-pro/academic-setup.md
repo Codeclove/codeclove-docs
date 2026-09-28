@@ -6,11 +6,11 @@ Configure your institution's academic structure, including academic sessions (ye
 
 ## 1. Academic Sessions (Years)
 
-Nexora manages all students, attendance logs, timetables, and fee invoices within designated academic sessions.
+CodeClove School Management Pro manages all students, attendance logs, timetables, and fee invoices within designated academic sessions.
 
 ### Adding an Academic Session
 
-1. Navigate to **Nexora > Academics > Sessions**.
+1. Navigate to **School Management Pro > Academics > Sessions**.
 2. Click **Add New Session**.
 3. Enter the session parameters:
    * **Session Title:** e.g., `2026-2027` or `2026-2027 Academic Year`.
@@ -21,7 +21,7 @@ Nexora manages all students, attendance logs, timetables, and fee invoices withi
 
 ### Switching the Active Session
 
-The global header in the Nexora dashboard includes a **Session Selector**. 
+The global header in the School Management Pro dashboard includes a **Session Selector**. 
 
 * The selector switches between sessions. Past sessions open in read-only mode to prevent accidental modifications.
 
@@ -31,7 +31,7 @@ The global header in the Nexora dashboard includes a **Session Selector**.
 
 Subdivide your academic session into grading and billing intervals:
 
-1. Navigate to **Nexora > Academics > Sessions**, and select your active session.
+1. Navigate to **School Management Pro > Academics > Sessions**, and select your active session.
 2. Under the **Terms** tab, click **Add Term**.
 3. Configure the term details:
    * **Term Name:** e.g., `Term 1`, `Term 2`, `Semester 1`, or `Quarter 1`.
@@ -42,7 +42,7 @@ Subdivide your academic session into grading and billing intervals:
 
 ## 3. Country & Board Presets
 
-Nexora includes pre-built education templates for regional boards:
+CodeClove School Management Pro includes pre-built education templates for regional boards:
 
 | Preset | Target System | Default Grade Hierarchy | Term Pattern |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Nexora includes pre-built education templates for regional boards:
 
 ### Applying a Board Preset
 
-1. Navigate to **Nexora > Settings > Education System**.
+1. Navigate to **School Management Pro > Settings > Education System**.
 2. Under **Country Preset**, select **India**, **United States**, **United Kingdom**, or **Custom**.
 3. Choose the **Apply Mode**:
    * *Apply missing defaults:* Adds recommended grade units without modifying existing classes.
@@ -70,7 +70,7 @@ Switching or updating a preset changes terminology labels and defaults only. It 
 
 If you prefer manual configuration or need to customize your grade levels:
 
-1. Navigate to **Nexora > Academics > Classes**.
+1. Navigate to **School Management Pro > Academics > Classes**.
 2. Click **Add Class**.
 3. Fill in the class details:
    * **Class Name:** e.g., `Class 9`, `Grade 9`, or `Year 9`.
@@ -84,7 +84,7 @@ If you prefer manual configuration or need to customize your grade levels:
 
 Subdivide classes into individual classroom sections or homerooms:
 
-1. In **Nexora > Academics > Classes**, click on a specific class (or navigate to **Sections**).
+1. In **School Management Pro > Academics > Classes**, click on a specific class (or navigate to **Sections**).
 2. Click **Add Section**.
 3. Configure section parameters:
    * **Section Name:** e.g., `Section A`, `Section B`, or `Homeroom 101`.
@@ -97,7 +97,7 @@ Subdivide classes into individual classroom sections or homerooms:
 
 ## 6. Subjects & Course Allocation
 
-1. Navigate to **Nexora > Academics > Subjects**.
+1. Navigate to **School Management Pro > Academics > Subjects**.
 2. Click **Add Subject**.
 3. Enter subject parameters:
    * **Subject Name:** e.g., `Mathematics`, `English Literature`, `Computer Science`.
@@ -110,4 +110,4 @@ Subdivide classes into individual classroom sections or homerooms:
 
 ## Next Steps
 
-With your academic hierarchy established, set up your daily schedule in [Timetable & Substitution](/nexora/timetable) or start accepting applications in [Student Admissions](/nexora/admissions).
+With your academic hierarchy established, set up your daily schedule in [Timetable & Substitution](/school-management-pro/timetable) or start accepting applications in [Student Admissions](/school-management-pro/admissions).

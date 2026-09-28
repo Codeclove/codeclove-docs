@@ -14,7 +14,7 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'CodeClove Docs' }],
     ['meta', { property: 'og:title', content: 'CodeClove Docs: Plugin Documentation & Setup Guides' }],
-    ['meta', { property: 'og:description', content: 'Setup guides, architecture docs, and references for Nexora and HR Press Pro.' }],
+    ['meta', { property: 'og:description', content: 'Setup guides, architecture docs, and references for CodeClove School Management Pro and HR Press Pro.' }],
   ],
   markdown: {
     theme: { light: 'github-light', dark: 'github-dark' },
@@ -25,54 +25,54 @@ export default defineConfig({
       provider: 'local',
     },
     nav: [
-      { text: 'Nexora', link: '/nexora/' },
+      { text: 'School Management Pro', link: '/school-management-pro/' },
       { text: 'HR Press', link: '/hr-press/' },
       { text: 'Live Demo', link: 'https://demo.codeclove.com', target: '_blank' },
       { text: 'CodeClove.com', link: 'https://codeclove.com', target: '_blank' },
     ],
     sidebar: {
-      '/nexora/': [
+      '/school-management-pro/': [
         {
           text: 'Getting Started',
           items: [
-            { text: 'Introduction', link: '/nexora/' },
-            { text: 'Installation & Activation', link: '/nexora/installation' },
+            { text: 'Introduction', link: '/school-management-pro/' },
+            { text: 'Installation & Activation', link: '/school-management-pro/installation' },
           ],
         },
         {
           text: 'Academic Setup',
           items: [
-            { text: 'Academic Sessions & Presets', link: '/nexora/academic-setup' },
-            { text: 'Timetable & Substitution', link: '/nexora/timetable' },
+            { text: 'Academic Sessions & Presets', link: '/school-management-pro/academic-setup' },
+            { text: 'Timetable & Substitution', link: '/school-management-pro/timetable' },
           ],
         },
         {
           text: 'Students & Admissions',
           items: [
-            { text: 'Student Admissions', link: '/nexora/admissions' },
-            { text: 'Student Directory & SIS', link: '/nexora/student-directory' },
+            { text: 'Student Admissions', link: '/school-management-pro/admissions' },
+            { text: 'Student Directory & SIS', link: '/school-management-pro/student-directory' },
           ],
         },
         {
           text: 'Staff & Permissions',
           items: [
-            { text: 'Staff & Faculty Management', link: '/nexora/staff-management' },
-            { text: 'Roles & Permissions (RBAC)', link: '/nexora/roles-permissions' },
+            { text: 'Staff & Faculty Management', link: '/school-management-pro/staff-management' },
+            { text: 'Roles & Permissions (RBAC)', link: '/school-management-pro/roles-permissions' },
           ],
         },
         {
           text: 'Operations & Billing',
           items: [
-            { text: 'Attendance Tracking', link: '/nexora/attendance' },
-            { text: 'Fee Management & Invoicing', link: '/nexora/fee-management' },
+            { text: 'Attendance Tracking', link: '/school-management-pro/attendance' },
+            { text: 'Fee Management & Invoicing', link: '/school-management-pro/fee-management' },
           ],
         },
         {
           text: 'Configuration & Reference',
           items: [
-            { text: 'SMS & Notifications', link: '/nexora/notifications-sms' },
-            { text: 'Settings & Identifiers', link: '/nexora/settings-identifiers' },
-            { text: 'Shortcode Reference', link: '/nexora/shortcodes-reference' },
+            { text: 'SMS & Notifications', link: '/school-management-pro/notifications-sms' },
+            { text: 'Settings & Identifiers', link: '/school-management-pro/settings-identifiers' },
+            { text: 'Shortcode Reference', link: '/school-management-pro/shortcodes-reference' },
           ],
         },
       ],

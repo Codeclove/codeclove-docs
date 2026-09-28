@@ -1,6 +1,6 @@
 # Attendance Tracking
 
-Nexora tracks daily student and staff attendance, generates monthly reports, and sends automated absence alerts.
+CodeClove School Management Pro tracks daily student and staff attendance, generates monthly reports, and sends automated absence alerts.
 
 ---
 
@@ -8,7 +8,7 @@ Nexora tracks daily student and staff attendance, generates monthly reports, and
 
 Homeroom teachers and administrators mark daily attendance from the dashboard:
 
-1. Navigate to **Nexora > Students > Attendance** (or **Daily Attendance**).
+1. Navigate to **School Management Pro > Students > Attendance** (or **Daily Attendance**).
 2. Select attendance filters:
    * **Academic Session:** Defaults to current session.
    * **Class & Section:** Choose the class being marked (e.g., `Class 9 - Section A`).
@@ -24,7 +24,7 @@ Homeroom teachers and administrators mark daily attendance from the dashboard:
 6. Click **Save Attendance**.
 
 ::: tip Automated SMS Absence Alerts
-If an SMS gateway is configured in **Nexora > Settings > Notifications**, marking a student as *Absent* can automatically trigger an instant SMS notification to their primary guardian.
+If an SMS gateway is configured in **School Management Pro > Settings > Notifications**, marking a student as *Absent* can automatically trigger an instant SMS notification to their primary guardian.
 :::
 
 ---
@@ -33,7 +33,7 @@ If an SMS gateway is configured in **Nexora > Settings > Notifications**, markin
 
 Review full-month attendance records and calculate monthly attendance percentages:
 
-1. Navigate to **Nexora > Students > Attendance > Monthly Sheet**.
+1. Navigate to **School Management Pro > Students > Attendance > Monthly Sheet**.
 2. Select the **Class**, **Section**, **Month**, and **Year**.
 3. An interactive calendar matrix displays daily attendance statuses for every student in the section:
    * Total Days Present
@@ -48,7 +48,7 @@ Review full-month attendance records and calculate monthly attendance percentage
 
 Track faculty and administrative staff presence:
 
-1. Navigate to **Nexora > Staff & HR > Staff Attendance**.
+1. Navigate to **School Management Pro > Staff & HR > Staff Attendance**.
 2. Select the **Date** and optional **Department** filter.
 3. Mark attendance status for each employee: `Present`, `Absent`, `On Leave`, `Late`, `Half-Day`.
 4. Click **Save Staff Attendance**.
@@ -57,7 +57,7 @@ Track faculty and administrative staff presence:
 
 ## 4. Staff Monthly Timesheet
 
-1. In **Nexora > Staff & HR > Staff Attendance**, select the **Monthly Timesheet** tab.
+1. In **School Management Pro > Staff & HR > Staff Attendance**, select the **Monthly Timesheet** tab.
 2. Filter by month and department to review total work days, leaves taken, and attendance percentages for payroll processing.
 3. Export summaries via CSV or print directly.
 
@@ -65,4 +65,4 @@ Track faculty and administrative staff presence:
 
 ## Next Steps
 
-Configure fee heads, billing schedules, and receipts in [Fee Management & Invoicing](/nexora/fee-management).
+Configure fee heads, billing schedules, and receipts in [Fee Management & Invoicing](/school-management-pro/fee-management).

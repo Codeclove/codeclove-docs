@@ -1,12 +1,12 @@
 # Roles & Permissions (RBAC)
 
-Nexora's RBAC system limits each role to the modules it needs. Teachers, accountants, front-desk staff, and administrators each see only what their role requires.
+CodeClove School Management Pro's RBAC system limits each role to the modules it needs. Teachers, accountants, front-desk staff, and administrators each see only what their role requires.
 
 ---
 
 ## 1. Built-in Default Roles
 
-Nexora provides pre-configured role profiles out of the box:
+CodeClove School Management Pro provides pre-configured role profiles out of the box:
 
 | Role | Intended Audience | Access Scope |
 |---|---|---|
@@ -22,7 +22,7 @@ Nexora provides pre-configured role profiles out of the box:
 
 Administrators can inspect and customize capabilities assigned to any role:
 
-1. Navigate to **Nexora > Staff & HR > Roles & Permissions**.
+1. Navigate to **School Management Pro > Staff & HR > Roles & Permissions**.
 2. Select a role to view its permission matrix.
 3. Toggle permissions across functional modules:
    * **Academics:** View/Edit Sessions, Classes, Sections, Subjects, and Master Timetables.
@@ -40,7 +40,7 @@ Administrators can inspect and customize capabilities assigned to any role:
 
 For schools with specialized staffing requirements (e.g., *Transport Manager*, *Hostel Warden*, *Exam Coordinator*):
 
-1. In **Nexora > Staff & HR > Roles & Permissions**, click **Add Custom Role**.
+1. In **School Management Pro > Staff & HR > Roles & Permissions**, click **Add Custom Role**.
 2. Enter the **Role Name** (e.g., `Exam Coordinator` or `Transport Supervisor`).
 3. Select the base template to clone initial permissions from, or start with a clean profile.
 4. Check the exact operational capabilities required for that role.
@@ -51,4 +51,4 @@ For schools with specialized staffing requirements (e.g., *Transport Manager*, *
 
 ## Next Steps
 
-Learn how to record daily and monthly attendance in [Attendance Tracking](/nexora/attendance).
+Learn how to record daily and monthly attendance in [Attendance Tracking](/school-management-pro/attendance).
